@@ -1,0 +1,16 @@
+CREATE DATABASE `hobby_php4`;
+
+
+CREATE  TABLE `hobby_php4`.`entries`  (
+
+`id`  INT(11) NOT  NULL AUTO_INCREMENT PRIMARY KEY,
+
+`title` VARCHAR(255) NOT  NULL ,
+
+`date` DATE NOT   NULL,
+
+`entry` VARCHAR(2000) NOT  NULL ,
+
+`picture` VARCHAR(255)   NULL
+
+) ENGINE=InnoDB  DEFAULT  CHARSET=utf8mb4 AUTO_INCREMENT=1;
